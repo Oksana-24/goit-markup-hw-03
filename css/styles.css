@@ -16,6 +16,24 @@ body{
     letter-spacing: 0.03em;
 }
 
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1, h2, h3, h4, ul, p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 .list{
     list-style: none;
 }
@@ -37,8 +55,19 @@ button {
 cursor: pointer;
 }
 /* header */
+
+.header-nav {
+display: flex;
+align-items: center;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
 .logo {
     color:var(--primary-color) ;
+
+    margin-right: 93px;
+
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -53,6 +82,11 @@ cursor: pointer;
 .logo.logo:hover,
 .logo.logo:focus {
     color:var(--blue-color);
+}
+
+.main-nav {
+    display:flex;
+    gap: 50px;
 }
 
 .main-nav .link{
@@ -72,6 +106,11 @@ cursor: pointer;
 color: var(--blue-color);
 }
 
+.auth-nav {
+    display: inline-block;
+    margin-left: auto;
+
+}
 .auth-nav .link{
     color: var(--secondary-color);
     font-weight: 500;
