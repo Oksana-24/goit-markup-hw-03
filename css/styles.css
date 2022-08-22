@@ -349,7 +349,9 @@ color: var(--blue-color);
 
 .box-images {
 padding: 20px 24px;
+border-bottom: 1px solid #EEEEEE;
 }
+
 
 .list-images-portfolio {
     display: flex;
