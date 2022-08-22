@@ -7,12 +7,13 @@
     <title>Студія</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
      <!-- Хедер-->
     <header class="header">
-      <div class="container">
+      <div class="container header-box">
         <nav class="header-nav">
             <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
             <ul class="main-nav list">
@@ -41,7 +42,7 @@
     <main>
         <!-- Шапка сторінки -->
         <section class="main-section">
-            <div class="container">
+            <div class="container main-box">
                 <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
                 <button class="main-button" type="button">Замовити послугу</button>
             </div>
@@ -92,21 +93,29 @@
                 <ul class="list-team list">
                     <li class="list-team-list">
                         <img src="./images/product-designer.jpg" alt="Ігор Дем'яненко" width="270">
-                        <h3 class="team-title">Ігор Дем'яненко</h3>
-                        <p class="position" lang="en">Product Designer</p>
+                        <div class="team-box">
+                            <h3 class="team-title">Ігор Дем'яненко</h3>
+                            <p class="position" lang="en">Product Designer</p>
+                        </div>
                     </li>
                     <li class="list-team-list"><img src="./images/frontend-developer.jpg" alt="Ольга Рєпіна" width="270">
-                        <h3 class="team-title">Ольга Рєпіна</h3>
-                        <p class="position" lang="en">Frontend Developer</p>
+                        <div class="team-box">
+                            <h3 class="team-title">Ольга Рєпіна</h3>
+                            <p class="position" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="list-team-list"><img src="./images/marketing.jpg" alt="Микола Тарасов" width="270">
-                        <h3 class="team-title">Микола Тарасов</h3>
-                        <p class="position" lang="en">Marketing</p>
+                        <div class="team-box">
+                            <h3 class="team-title">Микола Тарасов</h3>
+                            <p class="position" lang="en">Marketing</p>
+                        </div>
                     </li>
                     <li class="list-team-list">
                         <img src="./images/ul-designer.jpg" alt="Михайло Єрмаков" width="270">
-                        <h3 class="team-title">Михайло Єрмаков</h3>
-                        <p class="position" lang="en">UI Designer</p>
+                        <div class="team-box">
+                            <h3 class="team-title">Михайло Єрмаков</h3>
+                            <p class="position" lang="en">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -118,15 +127,15 @@
         <a class="logo-footer" href="./index.html"><span class="footer-accent">Web</span>Studio</a>
         <address>
             <ul class="footer-list list">
-                <li>
+                <li class="footer-box">
                     <a class="adress-footer" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
                         rel="noopener noreferrer nofollow">
                         м. Київ, пр-т Лесі Українки, 26</a>
                 </li>
-                <li>
+                <li class="footer-box">
                     <a class="link-footer" href="mailto:info@example.com">info@example.com</a>
                 </li>
-                <li>
+                <li class="footer-box">
                     <a class="link-footer" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
