@@ -55,6 +55,12 @@ h1, h2, h3, h4, ul, p {
 button {
 cursor: pointer;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 /* HEADER */
 .header {
     border-bottom: 1px solid #ECECEC;
@@ -87,10 +93,10 @@ align-items: center;
     color:var(--blue-color);
 }
 
-.logo.logo:hover,
+/* .logo.logo:hover,
 .logo.logo:focus {
     color:var(--blue-color);
-}
+} */
 
 .main-nav {
     display:flex;
@@ -122,6 +128,9 @@ color: var(--blue-color);
     gap: 50px;
 }
 .auth-nav .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 14px;
@@ -162,6 +171,9 @@ color: var(--blue-color);
     text-transform: uppercase;
 }
 .main-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px 32px;
     color: var(--white-color);
     background-color:var(--blue-color) ;
@@ -190,6 +202,10 @@ color: var(--blue-color);
 .features-list {
     display: flex;
     gap: 30px;
+}
+
+.features-items {
+    width: 270px;
 }
 
 .features-title {
@@ -285,14 +301,14 @@ color: var(--blue-color);
     text-decoration: none;
 }
 
-.logo-footer.logo-footer:hover,
+/* .logo-footer.logo-footer:hover,
 .logo-footer.logo-footer:focus {
     color: var(--blue-color);
+} */
+.footer-box:not(:last-child) {
+    margin-bottom: 9px;
 }
 
-.footer-box {
-    gap: 9px;
-}
 .adress-footer {
     color: var(--white-color);
     font-weight: 400;
@@ -350,6 +366,8 @@ color: var(--blue-color);
 .box-images {
 padding: 20px 24px;
 border-bottom: 1px solid #EEEEEE;
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
 }
 
 
